@@ -78,12 +78,12 @@ A Spring Boot microservices ecosystem powering a business-assistant tool for ent
 A comprehensive showcase of 36 backend Java projects progressing from console fundamentals to enterprise-level Spring Boot microservices with JWT authentication, dual persistence (JPA + MongoDB), and comprehensive testing.
 
 - Built a **growth-driven portfolio** spanning 5 phases: Foundations → Databases → OOP & Patterns → Concurrency → Spring Boot REST APIs
-- Implemented **JWT authentication from scratch** with custom filters, token utilities, and stateless session management in [S502.DiceGame](https://github.com/Laura-bf/ITAcademy_Java/tree/main/S502.DiceGame.Nivel3)
-- Designed **dual persistence architecture** operating over both JPA (MySQL) and MongoDB via Spring profiles ([S502.DiceGame](https://github.com/Laura-bf/ITAcademy_Java/tree/main/S502.DiceGame.Nivel3))
+- Implemented **JWT authentication from scratch** with custom filters, token utilities, and stateless session management in [S502.DiceGame](https://github.com/Laura-bf/ITAcademy_Java/tree/master/S502.DiceGame.Nivel3)
+- Designed **dual persistence architecture** operating over both JPA (MySQL) and MongoDB via Spring profiles ([S502.DiceGame](https://github.com/Laura-bf/ITAcademy_Java/tree/master/S502.DiceGame.Nivel3))
 - Applied **design patterns** in practice, not just labeled: Factory (M6), Command (M11), MVC (M8/M9/M11), Repository (M8/S4/S5), DTO (M8/S502)
 - Developed **37+ unit/integration tests** covering controller, service, repository, and DTO layers using JUnit 5, Mockito, and Spring Boot Test.
 - Created **Swagger/OpenAPI documentation** for all Spring Boot REST endpoints (S402, S502)
-- **Final Project:** [S502.DiceGame](https://github.com/Laura-bf/ITAcademy_Java/tree/main/S502.DiceGame.Nivel3)
+- **Final Project:** [S502.DiceGame](https://github.com/Laura-bf/ITAcademy_Java/tree/master/S502.DiceGame.Nivel3)
 - _Stack: Java 11/17, Spring Boot 2.5-2.6, JPA/Hibernate, Thymeleaf, MySQL, H2, MongoDB, Swagger/OpenAPI 3, JWT, JUnit 5, Mockito, Postman, Java Swing_
 
 ### [backendDevTest](https://github.com/Laura-bf/backendDevTest)
@@ -97,7 +97,7 @@ A reactive product aggregation service consuming multiple upstream APIs concurre
 - _Stack: Java 17, Spring Boot 2.6, Spring WebFlux, WebClient, Docker._
 
 >[!NOTE]
->For detailed project breakdowns, architecture decisions, and learning outcomes **[View Full Portfolio →]([Empleabilidad/Public_profiles/Portfolio.md](https://github.com/Laura-bf/Laura-bf/blob/main/Porfolio.md))**
+>For detailed project breakdowns, architecture decisions, and learning outcomes **[View Full Portfolio →](https://github.com/Laura-bf/Laura-bf/blob/main/Porfolio.md)**
 
 ---
 

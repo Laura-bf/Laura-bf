@@ -66,7 +66,7 @@ A comprehensive showcase of 36 backend Java projects progressing from console fu
 - **Comprehensive Testing:** 37+ unit/integration tests covering controller, service, repository, and DTO layers using JUnit 5, Mockito, and Spring Boot Test
 
 >[!TIP]
->**Start Here:** [Final Project - S502.DiceGame](https://github.com/Laura-bf/ITAcademy_Java/tree/main/S502.DiceGame.Nivel3) or [S501.SpringRESTapi](https://github.com/Laura-bf/ITAcademy_Java/tree/main/S501.SpringRESTapi.nivel3)
+>**Start Here:** [Final Project - S502.DiceGame](https://github.com/Laura-bf/ITAcademy_Java/tree/master/S502.DiceGame.Nivel3) or [S501.SpringRESTapi](https://github.com/Laura-bf/ITAcademy_Java/tree/master/S501.SpringRESTapi.nivel3)
 
 ---
 
