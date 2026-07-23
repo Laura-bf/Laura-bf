@@ -25,7 +25,7 @@
 <h1 style="margin-bottom: 0">Laura Benito Fernández</h1>
 <h3 style="margin-top: 0">Backend Java Developer | Spring Boot & Enterprise Java</h3>
 
-> Backend Java Developer with 1.5+ years of enterprise experience building REST APIs and batch processing systems. Currently strengthening my backend engineering foundations while exploring AI-assisted development workflows and developer tooling.
+> Backend Java Developer with enterprise experience building REST APIs and batch processing systems. Currently strengthening my backend engineering foundations while exploring AI-assisted development workflows and developer tooling.
 
 </div>
 
