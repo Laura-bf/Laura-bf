@@ -80,6 +80,7 @@ A bilingual (Catalan/Spanish) static website for a social educator and trainer. 
 - Small pull requests into `dev` with GitHub Actions CI (`astro check` + build) and a Cloudflare Pages preview per branch, protected with Cloudflare Access
 - 24 Architecture Decision Records, including the decisions that were later superseded and why
 - Two-level documentation: ADRs for the stable decisions, and a private session journal for the process, which also serves as the agent's memory between sessions, resumed through a custom `/retomar` command
+- Client handover: a 13-page guide written for a non-technical client — a task-based walkthrough of the Studio with screenshots, what's done and what's still pending (grouped by what unblocks each step), account ownership and running costs. Kept private as a client deliverable.
 - AI-assisted, human-led: development with Claude Code under a written protocol ([AGENTS.md](https://github.com/cvclaramh-oss/clara-martinez-website/blob/dev/AGENTS.md)) — explain before changing, ask before touching configuration, no commits without approval — with project knowledge in versioned skills
 
 ### Outcome & Learning
