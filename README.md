@@ -77,6 +77,9 @@
 
 ## Featured Projects
 
+>[!NOTE]
+>For detailed project breakdowns, architecture decisions, and learning outcomes **[View Full Portfolio →](https://github.com/Laura-bf/Laura-bf/blob/main/Portfolio.md)**
+
 ### [Clara Martínez Hernández — Portfolio Website](https://github.com/cvclaramh-oss/clara-martinez-website)
 
 > **Role:** Sole developer (design & development) | **Context:** Freelance client project (2 weeks, September 2026; pre-launch)
@@ -124,9 +127,6 @@ A reactive product aggregation service consuming multiple upstream APIs concurre
 - Exposed a unified REST endpoint that concurrently queries separate upstream services to stream aggregated data contracts.
 - Used reactive WebClient to call the provided upstream APIs efficiently, built with focus on the evaluation criteria: code clarity, performance, and resilience under concurrent load.
 - _Stack: Java 17, Spring Boot 2.6, Spring WebFlux, WebClient, Docker._
-
->[!NOTE]
->For detailed project breakdowns, architecture decisions, and learning outcomes **[View Full Portfolio →](https://github.com/Laura-bf/Laura-bf/blob/main/Portfolio.md)**
 
 ---
 
