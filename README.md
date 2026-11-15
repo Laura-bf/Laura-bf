@@ -15,6 +15,12 @@
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ED?logo=docker)
 ![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)
 ![Swagger](https://img.shields.io/badge/Swagger-3-85EA2D?logo=swagger)
+![Astro](https://img.shields.io/badge/Astro-7-BC52EE?logo=astro)
+![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss)
+![Sanity](https://img.shields.io/badge/Sanity-Headless%20CMS-F03E2F?logo=sanity)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-Hosting-F38020?logo=cloudflarepages)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI-2088FF?logo=githubactions)
 
 </div>
 
@@ -45,6 +51,17 @@
 | **Tools & CI/CD**             | Git, Jenkins, Maven, Jira                                    |
 | **Methodologies & Practices** | Agile, Clean Code, SOLID, refactoring, Pull Request workflow |
 
+**Freelance client project (Clara Martínez Hernández website):**
+
+| Category                      | Technologies                                                                 |
+| :---------------------------- | :--------------------------------------------------------------------------- |
+| **Languages**                 | TypeScript, HTML, CSS/SCSS                                                   |
+| **Frameworks**                | Astro 7, Tailwind CSS 4                                                      |
+| **CMS & Data**                | Sanity (headless CMS, GROQ, Portable Text)                                   |
+| **Infrastructure & CI/CD**    | Cloudflare Pages, GitHub Actions                                             |
+| **Quality**                   | Clean code (DRY, KISS, YAGNI), refactoring, WCAG 2.2 AA accessibility, `astro check`, Architecture Decision Records |
+| **AI-assisted Workflow**      | Claude Code working under a written agent protocol (AGENTS.md + skills)      |
+
 **Personal & collaborative projects (bootcamp portfolio, BusinessAssistantBCN, backendDevTest):**
 
 | Category                 | Technologies                                                                                                            |
@@ -59,6 +76,18 @@
 ---
 
 ## Featured Projects
+
+### [Clara Martínez Hernández — Portfolio Website](https://github.com/cvclaramh-oss/clara-martinez-website)
+
+> **Role:** Sole developer (design & development) | **Context:** Freelance client project (2 weeks, September 2026; pre-launch)
+
+A bilingual (Catalan/Spanish) static website for a social educator and trainer, with all content editable by the client in a headless CMS. Accessibility-first (WCAG 2.2 AA).
+
+- Modeled the content in **Sanity** with a single document type and schema validations that keep the editor from breaking the site: slugs locked after publishing, link-or-download buttons, required alt text, bilingual tag documents.
+- Built a **single `getStaticPaths` router** that generates every page in both languages with translated URLs, plus a typed i18n dictionary checked at build time.
+- Implemented a **design system on CSS tokens** with `light-dark()` dark mode and a fluid type and spacing scale, on top of an accessible Astro starter.
+- Delivered through **small PRs with GitHub Actions CI** and Cloudflare Pages previews, documenting decisions in **24 ADRs**; AI-assisted development (Claude Code) under a written agent protocol, with design decisions kept human.
+- _Stack: Astro 7, TypeScript, Tailwind CSS 4, SCSS, Sanity 6 (GROQ), Cloudflare Pages, GitHub Actions, Web3Forms._
 
 ### [BusinessAssistantBCN - Backend](https://github.com/IT-Academy-BCN/BusinessAssistantBCN-backend)
 
@@ -97,12 +126,13 @@ A reactive product aggregation service consuming multiple upstream APIs concurre
 - _Stack: Java 17, Spring Boot 2.6, Spring WebFlux, WebClient, Docker._
 
 >[!NOTE]
->For detailed project breakdowns, architecture decisions, and learning outcomes **[View Full Portfolio →](https://github.com/Laura-bf/Laura-bf/blob/main/Porfolio.md)**
+>For detailed project breakdowns, architecture decisions, and learning outcomes **[View Full Portfolio →](https://github.com/Laura-bf/Laura-bf/blob/main/Portfolio.md)**
 
 ---
 
 ## Professional Trajectory
 
+- **Freelance Web Project (September 2026, 2 weeks):** Designed and built a bilingual client website end to end on a stack entirely new to me (TypeScript, Astro, Sanity) — content model, static architecture, accessibility and deployment — working in small reviewed PRs with CI and documenting every architectural decision as an ADR.
 - **Enterprise Experience (1.5+ Years):** Developed REST APIs and automated batch processing (**Spring Batch**) within a layered architecture closely aligned with Hexagonal principles, on top of a client-owned corporate framework. Executed deployments to testing environments via **Jenkins** pipelines, actively participated in the Pull Request review process, and handled client-facing technical discussions.
 - **Intensive Foundations:** 5-month full-time Java Backend Track at IT Academy Barcelona (2021), covering core concurrency through secure REST microservices with **JWT** authentication.
 
