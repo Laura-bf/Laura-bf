@@ -59,7 +59,7 @@
 | **Frameworks**                | Astro 7, Tailwind CSS 4                                                      |
 | **CMS & Data**                | Sanity (headless CMS, GROQ, Portable Text)                                   |
 | **Infrastructure & CI/CD**    | Cloudflare Pages, GitHub Actions                                             |
-| **Quality**                   | Clean code (DRY, KISS, YAGNI), refactoring, WCAG 2.2 AA accessibility, `astro check`, Architecture Decision Records |
+| **Quality**                   | Clean code (DRY, KISS, YAGNI), refactoring, WCAG 2.2 AA accessibility, type checking in CI, Architecture Decision Records |
 | **AI-assisted Workflow**      | Claude Code working under a written agent protocol (AGENTS.md + skills)      |
 
 **Personal & collaborative projects (bootcamp portfolio, BusinessAssistantBCN, backendDevTest):**
